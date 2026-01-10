@@ -95,14 +95,26 @@ input[type="text"] {
 > ✔ Targets text inputs only
 
 ### 7️⃣ Pseudo-class (:)
+
+Targets a state.
+
 ```css
 button:hover {
   background: black;
 }
 ```
 > ✔ When the user hovers
+
 ### 8️⃣ Pseudo-element (::)
 
+Targets part of an element.
+
+```css
+p::first-letter {
+  font-size: 2em;
+}
+```
+> ✔ Styles only the first letter
 
 
 
