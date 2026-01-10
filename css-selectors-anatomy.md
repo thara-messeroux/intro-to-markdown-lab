@@ -64,6 +64,13 @@ Targets one unique element.
 > ⚠️ Use IDs sparingly (only once per page)
 
 ### 4️⃣ Descendant Selector (space)
+Targets elements inside other elements.
+```css 
+.card p {
+  color: red;
+}
+```
+> ✔ Targets `<p>` inside .card
 ### 5️⃣ Child Selector (>)
 ### 6️⃣ Attribute Selector
 ### 7️⃣ Pseudo-class (:)
