@@ -53,7 +53,8 @@ console.log(total) // **Expected value**: 6
 ```
 
 For more information on functions and how they are used in JS, check out the MDN docs. 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions
+[Mozilla](
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
 
 
 # h1
@@ -64,7 +65,6 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions
 ###### h6
 
 
-https://maven.com/crossing-career-chasms/product-thinking
 
 This text is **bold**. This text is also __bold__.
 
@@ -100,4 +100,9 @@ const printItem = (item) => {
 
 
 [Google](https://www.google.com)
+
+This is [a reference][example].
+
+[example]: http://www.example.com/
+
 
