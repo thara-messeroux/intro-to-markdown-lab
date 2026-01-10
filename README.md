@@ -10,11 +10,11 @@ const functionName = (params) => {
 }
 ```
 
-1. **const**: const should be used whenever a function expression is assigned to a variable.
-2. **The function name**: The name you choose for the function.
-3. **Parameters**: Optional comma separated parameters. This is the data passed into the function. If there are no parameters, the () is still required.
-4. **The arrow syntax**: Indicates that this will be a function.
-5. **The body**: The statements that make up the function itself. Surrounded by curly braces.
+> 1. **const**: const should be used whenever a function expression is assigned to a variable.
+> 2. **The function name**: The name you choose for the function.
+> 3. **Parameters**: Optional comma separated parameters. This is the data passed into the function. If there are no parameters, the () is still required.
+> 4. **The arrow syntax**: Indicates that this will be a function.
+> 5. **The body**: The statements that make up the function itself. Surrounded by curly braces.
 
 ***Example***:
 
@@ -104,5 +104,12 @@ const printItem = (item) => {
 This is [a reference][example].
 
 [example]: http://www.example.com/
+
+
+> This is a blockquote.
+
+> First level of blockquote.
+>> Nested blockquote.
+>>> Another nested blockquote.
 
 
