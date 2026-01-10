@@ -71,8 +71,30 @@ Targets elements inside other elements.
 }
 ```
 > ✔ Targets `<p>` inside .card
+
 ### 5️⃣ Child Selector (>)
+
+Targets direct children only.
+
+```css
+ul > li {
+  list-style: none;
+}
+```
+> ✔ Targets `<li>` directly inside `<ul>`
+
 ### 6️⃣ Attribute Selector
+
+Targets elements with attributes.
+
+```css
+input[type="text"] {
+  border: 2px solid blue;
+}
+```
+
+
+
 ### 7️⃣ Pseudo-class (:)
 ### 8️⃣ Pseudo-element (::)
 
