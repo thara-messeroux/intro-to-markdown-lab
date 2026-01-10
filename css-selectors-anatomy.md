@@ -137,6 +137,10 @@ Selector | Meaning
 | `p` | element |
 | `.box` | class |
 | `#main` | id |
+| `div p` | inside |
+| `div > p` | direct child |
+| `:hover` | state |
+| `::before` | part |
 
 
 
