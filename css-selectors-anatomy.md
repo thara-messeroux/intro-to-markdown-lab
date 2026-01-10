@@ -10,19 +10,59 @@ selector {
 }
 ```
 ***Example:***
+
 ```css
 p {
   color: blue;
 }
 ```
-👉 This means: **“Style all `<p>` elements.”**
+> 👉 This means: **“Style all `<p>` elements.”**
 
 ## 🔍 Parts of a CSS Selector
 ![Anatomy of a CSS Rule](https://learnwebcode.com/wp-content/uploads/2010/02/anatomy-of-a-css-rule.gif)
 
 ### 1️⃣ Element Selector
+
+Targets HTML tags.
+
+```css
+    p {
+  font-size: 16px;
+}
+```
+> ✔ Targets all `<p>` tags
+
 ### 2️⃣ Class Selector (.)
+
+Targets elements with a specific class.
+
+```css
+.card {
+  border: 1px solid black;
+}
+```
+✔ Targets:
+
+```html
+<div class="card"></div>
+```
+
 ### 3️⃣ ID Selector (#)
+
+Targets one unique element.
+
+```css
+#header {
+  background: gray;
+}
+```
+✔ Targets:
+
+```html
+<div id="header"></div>
+```
+> ⚠️ Use IDs sparingly (only once per page)
+
 ### 4️⃣ Descendant Selector (space)
 ### 5️⃣ Child Selector (>)
 ### 6️⃣ Attribute Selector
