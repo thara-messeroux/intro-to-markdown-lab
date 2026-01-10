@@ -116,6 +116,27 @@ p::first-letter {
 ```
 > ✔ Styles only the first letter
 
+## 🧠 Mental Shortcut (Super Helpful)
+
+Think of selectors like filters:
+
+> “Find **this thing**, with **this name**, in **this place**, in **this state**.”
+
+```css
+.card > p:hover
+```
+
+🧠 Translation:
+
+> “Paragraphs directly inside `.card` **when hovered**”
+
+
+### ✅ Quick Cheat Sheet
+Selector | Meaning
+| ------ | ----------- |
+| `p` | element |
+| `.box` | class |
+| `#main` | id |
 
 
 
