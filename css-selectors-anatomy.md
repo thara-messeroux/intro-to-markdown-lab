@@ -94,10 +94,13 @@ input[type="text"] {
 ```
 > ✔ Targets text inputs only
 
-
-
-
 ### 7️⃣ Pseudo-class (:)
+```css
+button:hover {
+  background: black;
+}
+```
+> ✔ When the user hovers
 ### 8️⃣ Pseudo-element (::)
 
 
