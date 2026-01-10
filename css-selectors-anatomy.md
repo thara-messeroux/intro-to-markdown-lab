@@ -30,7 +30,7 @@ Targets HTML tags.
   font-size: 16px;
 }
 ```
-> ✔ Targets all `<p>` tags
+✔ Targets all `<p>` tags
 
 ### 2️⃣ Class Selector (.)
 
@@ -61,7 +61,7 @@ Targets one unique element.
 ```html
 <div id="header"></div>
 ```
-> ⚠️ Use IDs sparingly (only once per page)
+⚠️ Use IDs sparingly (only once per page)
 
 ### 4️⃣ Descendant Selector (space)
 Targets elements inside other elements.
@@ -70,7 +70,7 @@ Targets elements inside other elements.
   color: red;
 }
 ```
-> ✔ Targets `<p>` inside .card
+✔ Targets `<p>` inside .card
 
 ### 5️⃣ Child Selector (>)
 
@@ -81,7 +81,7 @@ ul > li {
   list-style: none;
 }
 ```
-> ✔ Targets `<li>` directly inside `<ul>`
+✔ Targets `<li>` directly inside `<ul>`
 
 ### 6️⃣ Attribute Selector
 
@@ -92,7 +92,7 @@ input[type="text"] {
   border: 2px solid blue;
 }
 ```
-> ✔ Targets text inputs only
+✔ Targets text inputs only
 
 ### 7️⃣ Pseudo-class (:)
 
@@ -103,7 +103,7 @@ button:hover {
   background: black;
 }
 ```
-> ✔ When the user hovers
+✔ When the user hovers
 
 ### 8️⃣ Pseudo-element (::)
 
@@ -114,13 +114,13 @@ p::first-letter {
   font-size: 2em;
 }
 ```
-> ✔ Styles only the first letter
+✔ Styles only the first letter
 
 ## 🧠 Mental Shortcut (Super Helpful)
 
 Think of selectors like filters:
 
-> “Find **this thing**, with **this name**, in **this place**, in **this state**.”
+“Find **this thing**, with **this name**, in **this place**, in **this state**.”
 
 ```css
 .card > p:hover
@@ -128,7 +128,7 @@ Think of selectors like filters:
 
 🧠 Translation:
 
-> “Paragraphs directly inside `.card` **when hovered**”
+“Paragraphs directly inside `.card` **when hovered**”
 
 
 ### ✅ Quick Cheat Sheet
