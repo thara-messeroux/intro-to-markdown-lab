@@ -16,7 +16,7 @@ p {
   color: blue;
 }
 ```
-> 👉 This means: **“Style all `<p>` elements.”**
+👉 This means: **“Style all `<p>` elements.”**
 
 ## 🔍 Parts of a CSS Selector
 ![Anatomy of a CSS Rule](https://learnwebcode.com/wp-content/uploads/2010/02/anatomy-of-a-css-rule.gif)
