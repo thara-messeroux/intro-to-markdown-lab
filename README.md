@@ -98,7 +98,6 @@ const printItem = (item) => {
 }
 ```
 
-
 [Google](https://www.google.com)
 
 This is [a reference][example].

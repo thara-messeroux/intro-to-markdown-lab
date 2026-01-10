@@ -92,6 +92,8 @@ input[type="text"] {
   border: 2px solid blue;
 }
 ```
+> ✔ Targets text inputs only
+
 
 
 
