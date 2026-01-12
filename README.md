@@ -1,8 +1,13 @@
-Writing a Function in JavaScript
+# Writing a Function in JavaScript
 
-In JavaScript, functions are blocks of reusable code. They allow you to bundle functionality, make it more readable, and avoid repetition. Here's a brief tutorial on writing an arrow function in JavaScript.
+![Computer with Code](https://images.unsplash.com/photo-1587620962725-abab7fe55159?auto=format&fit=crop&q=80&w=1600)
 
-# 1. Basic syntax
+In JavaScript, functions are blocks of reusable code. They allow you to bundle functionality, make it more readable, and avoid repetition.  
+Here’s a brief tutorial on writing an arrow function in JavaScript.
+
+---
+
+## 1. Basic syntax
 
 ```javascript
 const functionName = (params) => {
@@ -10,13 +15,13 @@ const functionName = (params) => {
 }
 ```
 
-1. **const**: const should be used whenever a function expression is assigned to a variable.
-2. **The function name**: The name you choose for the function.
-3. **Parameters**: Optional comma separated parameters. This is the data passed into the function. If there are no parameters, the () is still required.
-4. **The arrow syntax**: Indicates that this will be a function.
-5. **The body**: The statements that make up the function itself. Surrounded by curly braces.
+- **const**: `const` should be used whenever a function expression is assigned to a variable.
+- **The function name**: The name you choose for the function.
+- **Parameters**: Optional comma separated parameters. This is the data passed into the function. If there are no parameters, the `()` is still required.
+- **The arrow syntax**: Indicates that this will be a function.
+- **The body**: The statements that make up the function itself. Surrounded by curly braces.
 
-***Example***:
+**Example:**
 
 ```javascript
 const greet = (name) => {
@@ -24,23 +29,28 @@ const greet = (name) => {
 }
 ```
 
-> **Tip**: Functions often perform actions, so naming with a verb can make it clear what the function does. Examples include fetchData( ), calculateArea( ), or printReport( ). 
+> Tip: Functions often perform actions, so naming with a verb can make it clear what the function does.  
+> Examples include `fetchData()`, `calculateArea()`, or `printReport()`.
 
-# 2. Calling a function
+---
+
+## 2. Calling a function
 
 To execute the function, you *call* or *invoke* it by using its name followed by parentheses.
 
-***Example***:
+**Example:**
 
 ```javascript
-greet('Alice'); // **Outputs**: Hello, Alice!
+greet("Alice"); // Outputs: Hello, Alice!
 ```
 
-# 3. Return values
+---
 
-Functions can process data input and output a value using the *return* keyword.
+## 3. Return values
 
-***Example***: 
+Functions can process data input and output a value using the `return` keyword.
+
+**Example:**
 
 ```javascript
 const addNums = (numA, numB) => {
@@ -49,84 +59,45 @@ const addNums = (numA, numB) => {
 
 const total = addNums(2, 4);
 
-console.log(total) // **Expected value**: 6
+console.log(total); // Expected value: 6
 ```
 
-For more information on functions and how they are used in JS, check out the MDN docs. 
-[MDN docs](
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions).
+For more information on functions and how they are used in JS, check out the [MDN docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions).
 
+---
 
-# h1
-## h2
-### h3
-#### h4
-##### h5
-###### h6
+## Quick reference (table)
 
+| Concept | What it means |
+| --- | --- |
+| **call / invoke** | Run a function |
+| **return** | Send a value back |
 
+---
 
-This text is **bold**. This text is also __bold__.
+## Part 2: Create another tutorial (30 min)
 
-This text is in *italics*. This text is also in _italics_.
+1. Create a new file with a `.md` extension.
+2. Choose a new topic (a few options for inspiration):
+   - How to write an HTML Boilerplate
+   - The anatomy of a CSS selector
+   - How to create a file using the Terminal
+   - How to build the perfect sandwich
+3. Practice your new skills by writing another short tutorial in Markdown!
 
+### Checklist (for Part 2)
 
-**const**: ...
-**The function name**: ...
-**Parameters**: ...
-**The arrow syntax**: ...
-**The body**: ...
+- [ ] Create a new `.md` file
+- [ ] Add at least 2 headings
+- [ ] Include 1 code block
+- [ ] Include 1 link
+- [ ] Include 1 image
+- [ ] Push to GitHub
 
-* Item 1
-* Item 2
-  * Subitem 2.1
-  * Subitem 2.2
-    * Subitem 2.2.1
+---
 
-1. First item
-2. Second item
-   1. Subitem 2.1
-   2. Subitem 2.2
-  
+## Reference-style link (extra practice)
 
-Use the `console.log()` function to print values to the console.
+This is a reference-style link to [MDN Functions][mdn-functions].
 
-
-```javascript
-const printItem = (item) => {
-  console.log(item);
-}
-```
-
-[Google](https://www.google.com)
-
-This is [a reference][example].
-
-[example]: http://www.example.com/
-
-
-> This is a blockquote.
-
-> First level of blockquote.
->> Nested blockquote.
->>> Another nested blockquote.
-
-![some alt text](www.url_to_an_image.com/image)
-
-![Computer with Code](https://images.unsplash.com/photo-1587620962725-abab7fe55159?auto=format&fit=crop&q=80&w=1631&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
-
-![Out the window](https://plus.unsplash.com/premium_photo-1734543932645-6098590dc1ee?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
-
-
-
-| Syntax | Description |
-| ------ | ----------- |
-| Header | Title |
-| Paragraph | Text |
-
-
-- [x] Task 1
-- [ ] Task 2
-- [ ] Task 3
-
-This text has been ~~redacted~~. 
+[mdn-functions]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions
