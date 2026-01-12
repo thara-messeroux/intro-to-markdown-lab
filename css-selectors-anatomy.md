@@ -1,7 +1,7 @@
 # 🧩 The Anatomy of a CSS Selector
 
-A **CSS selector** tells the browser **which HTML elements to style**.  
-Selectors are the *foundation* of CSS — they decide **what gets styled** and **when**.
+A ***CSS selector*** tells the browser **which HTML elements to style**.  
+Selectors are the *foundation* of CSS. They decide **what gets styled** and **when**.
 
 ---
 
@@ -217,5 +217,4 @@ This selector combines **structure**, **hierarchy**, and **state** — exactly w
 
 ## ✨ Final Takeaway
 
-CSS selectors are not just syntax —  
-they are the *language CSS uses to understand your intent*.
+CSS selectors are not just syntax. They are the *language CSS uses to understand your intent*.
